@@ -1,0 +1,40 @@
+.footer_wrapper {
+  display: flex;
+  
+}
+
+.left_footer {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.left_footer_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_footer_bottom {
+  width: 150%;
+}
+
+.right_footer {
+  width: 50%;
+  margin-left: 50%;
+}
+
+.ul_footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.ul_footer  {
+  flex: 1 0 25%;
+}
+
+
+.right_footer_icons {
+  margin-left: 0;
+  margin-top: 20px;
+}
