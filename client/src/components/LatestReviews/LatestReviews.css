@@ -1,0 +1,12 @@
+.review_product_wrapper {
+  margin-top: 50px;
+}
+
+.review_title {
+  line-height: 10px;
+}
+
+.review_subtitle {
+  display: flex;
+  justify-content: space-between;
+}
