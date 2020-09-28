@@ -10,4 +10,4 @@ Installation & Development
 link: https://fdhomepage.web.app/#
 
 # Note
-WWorking on best on mozilla
+Working on best on mozilla
