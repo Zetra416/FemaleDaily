@@ -1,0 +1,38 @@
+.latest_videos_title {
+  line-height: 10px;
+  margin-top: 90px;
+  align-items: center;
+}
+
+.latest_videos_subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videos_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.video_left {
+  max-width: 30%;
+  padding:10px 20px;
+}
+
+.video_right {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 10px;
+
+
+}
