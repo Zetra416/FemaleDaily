@@ -9,7 +9,7 @@ export default function MatchesProduct(props) {
       <div className="matches_product_wrapper ">
         <div className="matches_product_content">
           <div className="matches_product_content_left">
-            <div className="img-woman"><img src={woman} style={{maxWidth:"600px", maxHeight:"400px", marginLeft: "40px"}}/></div>
+            <div className="img-woman"><img src={woman} alt={"..."} style={{maxWidth:"600px", maxHeight:"400px", marginLeft: "40px"}}/></div>
             <div className="writings">
               <h2>Looking for products that are just simply perfect for you ?</h2>
               <h3>Here are some products that we believe match your skin, hair, and body!

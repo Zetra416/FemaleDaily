@@ -13,7 +13,7 @@ export default function ReviewCard(props) {
     dispatch(
       getReview(url)
     )
-  }, [url])
+  }, [url, dispatch])
 
   const [activeItemIndex, setActiveItemIndex] = useState(1)
 
@@ -39,7 +39,7 @@ export default function ReviewCard(props) {
 
                 <div className="review_product_top">
                   <div className="review_product_image">
-                    <img className="review_image" src={product.image} style={{width: "70px" , height: "70px"}}/>
+                    <img className="review_image" src={product.image} alt={""} style={{width: "70px" , height: "70px"}}/>
                   </div>
 
                   <div className="review_product_top_desc">
@@ -49,7 +49,13 @@ export default function ReviewCard(props) {
                 </div>
 
                 <div className="review_product_middle">
-                  <h3 className="review_star">{star}</h3>
+                  <div className="star_rating">
+                    {[1,2,3,4,5].map((el,index) => {
+                      return el <= star ?
+                      <span class="fa fa-star checked"></span>
+                      : <span class="fa fa-star"></span>
+                    })}
+                  </div>
                   <h3 className="review_comment">{comment}</h3>
                 </div>
 

@@ -33,3 +33,8 @@
 ol {
   display: flex;
 }
+
+.star_rating {
+  padding-top: 10px;
+  padding-left: 10px;
+}

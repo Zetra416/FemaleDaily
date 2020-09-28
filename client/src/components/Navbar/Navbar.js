@@ -5,14 +5,14 @@ const Navbar = () => {
   return (
     <div className="navbar_wrapper">
       <div className="ul_navbar">
-          <li><a href="#">SKINCARE</a></li>
-          <li><a href="#"> MAKE UP</a></li>
-          <li><a href="#"> BODY</a></li>
-          <li><a href="#"> HAIR</a></li>
-          <li><a href="#"> FRAGRANCE</a></li>
-          <li><a href="#"> NAILS</a></li>
-          <li><a href="#"> TOOLS</a></li>
-          <li><a href="#"> BRANDS</a></li>
+          <li><a href="/skincare">SKINCARE</a></li>
+          <li><a href="/make-up"> MAKE UP</a></li>
+          <li><a href="/body"> BODY</a></li>
+          <li><a href="/hair"> HAIR</a></li>
+          <li><a href="/fragrance"> FRAGRANCE</a></li>
+          <li><a href="/nails"> NAILS</a></li>
+          <li><a href="/tools"> TOOLS</a></li>
+          <li><a href="/brands"> BRANDS</a></li>
       </div>
     </div>
   )

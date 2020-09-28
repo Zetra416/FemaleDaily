@@ -75,3 +75,7 @@
   padding-right: 5px;
   font-weight: 100;
 }
+
+.checked {
+  color: orange;
+}

@@ -1,6 +1,6 @@
 .footer_wrapper {
   display: flex;
-  
+
 }
 
 .left_footer {
@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 10vh;
+  height: 7vh;
 }
 
 .ul_footer  {

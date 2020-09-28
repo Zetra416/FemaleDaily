@@ -12,7 +12,7 @@ export default function LatestArticle(props) {
     dispatch(
       getArticle(url)
     )
-  }, [url])
+  }, [url, dispatch])
 
   return(
     <div className="article_wrapper">
@@ -21,7 +21,7 @@ export default function LatestArticle(props) {
           return(
             <div className="articles_cards" key={index}>
               <div className="article_card">
-                <img className="article_image" src={article.image}/>
+                <img className="article_image" src={article.image} alt={"..."}/>
                   <h3 className="article_title">{article.title}</h3>
                   <div className="article_bottom" >
                     <h3 className="article_author" style={{color:"#969696"}}>{article.author}</h3> <h3 style={{color:"#dddddd", letterSpacing:"5px"}}>|</h3><h3 className="article_published_at" style={{color:"#dddddd"}}>{article.published_at}</h3>

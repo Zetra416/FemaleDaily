@@ -55,3 +55,17 @@
 ol {
   display: flex;
 }
+
+.checked {
+  color: orange;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+}
+
+.star_rating {
+  padding-top: 10px;
+  padding-left: 10px;
+}

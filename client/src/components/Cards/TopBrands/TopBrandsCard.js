@@ -12,7 +12,7 @@ export default function TopBrandsCard(props) {
     dispatch(
       getBrand(url)
     )
-  }, [url])
+  }, [url, dispatch])
 
   return (
     <div className="top_brand">
@@ -24,7 +24,7 @@ export default function TopBrandsCard(props) {
           <div className="top_brand_wrapper" key={index}>
 
             <div className="top_brand_cards ">
-              <img className="top_brand_image" src={brand.product.image}/>
+              <img className="top_brand_image" src={brand.product.image} alt={"..."}/>
             </div>
           </div>
           )

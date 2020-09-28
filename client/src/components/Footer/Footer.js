@@ -10,21 +10,19 @@ const Footer = () => {
       <div className="left_footer">
         <div className="left_footer_top">
           <div className="ul_footer">
-
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Feedback</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Pollicy</a></li>
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Awards</a></li>
-              <li><a href="#">Newsletter</a></li>
-        
+              <li><a href="/about-us">About Us</a></li>
+              <li><a href="/feedback">Feedback</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/terms-conditions">Terms & Conditions</a></li>
+              <li><a href="/privacy-policy">Privacy Pollicy</a></li>
+              <li><a href="/help">Help</a></li>
+              <li><a href="/awards">Awards</a></li>
+              <li><a href="/newsletter">Newsletter</a></li>
           </div>
         </div>
 
         <div className="left_footer_bottom">
-          <img src={Logo} style={{height:"20px", width:"100px", paddingRight:"20px", paddingTop:"10px"}}/>
+          <img src={Logo} alt={"..."} style={{height:"20px", width:"100px", paddingRight:"20px", paddingTop:"10px"}}/>
           <h1 style={{fontSize:"12px", fontWeight:"50"}}> Copyright © 2015 - 2017 Female Daily Network - All rights reserved</h1>
         </div>
       </div>
@@ -32,8 +30,8 @@ const Footer = () => {
       <div className="right_footer">
         <div className="right_footer_top">
           <h1 style={{fontSize:"12px"}}>Download Our Mobile App</h1>
-          <img src={Apple} style={{height:"37px", width:"100px", paddingRight:"20px", paddingTop:"10px"}}/>
-          <img src={Google} style={{height:"37px", width:"100px", paddingRight:"20px", paddingTop:"10px"}}/>
+          <img src={Apple} alt={"..."} style={{height:"37px", width:"100px", paddingRight:"20px", paddingTop:"10px"}}/>
+          <img src={Google} alt={"..."} style={{height:"37px", width:"100px", paddingRight:"20px", paddingTop:"10px"}}/>
         </div>
 
         <div className="right_footer_icons">

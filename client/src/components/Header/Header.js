@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header_wrapper">
       <div className="left_header">
         <ion-icon name="menu-outline" className="left__header--icon" style={{ padding: "0.4rem" ,width:"30px", height:"30px"}} ></ion-icon>
-        <div className="img-logo"><img src={logo} style={{maxWidth:"180px", maxHeight:"40px", marginLeft:"60px"}} /></div>
+        <div className="img-logo"><img src={logo} alt={"..."} style={{maxWidth:"180px", maxHeight:"40px", marginLeft:"60px"}} /></div>
       </div>
 
       <div className="center_header">

@@ -12,7 +12,7 @@ export default function PopularGroupCard(props) {
     dispatch(
       getGroup(url)
     )
-  }, [url])
+  }, [url, dispatch])
 
   return (
     <div className="popular_group">
@@ -24,7 +24,7 @@ export default function PopularGroupCard(props) {
           <div className="popular_group_wrapper" key={index}>
 
             <div className="popular_group_cards ">
-              <img className="group_image_product" src={group.product.image}/>
+              <img className="group_image_product" src={group.product.image} alt={"..."}/>
               <div className="content_group_bottom">
                 <h3 className="group_title">Embrace the Curl</h3>
                 <div className="group_icons">

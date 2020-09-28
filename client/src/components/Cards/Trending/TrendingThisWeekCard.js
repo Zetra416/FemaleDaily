@@ -14,7 +14,7 @@ export default function TrendingTHisWeekCard(props) {
     dispatch(
       getTrending(url)
     )
-  }, [url])
+  }, [url, dispatch])
 
   return (
     <div className="trending_this_week_card_wrapper">
@@ -33,9 +33,17 @@ export default function TrendingTHisWeekCard(props) {
           <div className="trending_this_week_cards" key={index}>
 
             <div className="trending_product">
-              <img className="trending_image_product" src={trending.product.image}/>
+              <img className="trending_image_product" src={trending.product.image} alt={"..."}/>
               <div className="trending_bottom">
-                <h3 className="trending_rating">{trending.product.rating}</h3>
+              <div className="rating">
+                <div className="star_rating">
+                  {[1,2,3,4,5].map((el,index) => {
+                    return el <= trending.product.rating ?
+                    <span class="fa fa-star checked"></span>
+                    : <span class="fa fa-star"></span>
+                  })}
+                </div>
+                </div>
                 <h3 className="trending_name">{trending.product.name}</h3>
                 <h3 className="trending_description">{trending.product.description}</h3>
               </div>

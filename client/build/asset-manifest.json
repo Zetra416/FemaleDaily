@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ce751bf.chunk.css",
+    "main.js": "/static/js/main.f1ed63cb.chunk.js",
+    "main.js.map": "/static/js/main.f1ed63cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.ac86ff9a.chunk.js": "/static/js/2.ac86ff9a.chunk.js",
+    "static/js/2.ac86ff9a.chunk.js.map": "/static/js/2.ac86ff9a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e175cd0e9eeee61cdfe866679b673449.js": "/precache-manifest.e175cd0e9eeee61cdfe866679b673449.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6ce751bf.chunk.css.map": "/static/css/main.6ce751bf.chunk.css.map",
+    "static/js/2.ac86ff9a.chunk.js.LICENSE.txt": "/static/js/2.ac86ff9a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/static/media/logo.bfc6769c.svg",
+    "static/media/woman_matches.png": "/static/media/woman_matches.1311960b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.ac86ff9a.chunk.js",
+    "static/css/main.6ce751bf.chunk.css",
+    "static/js/main.f1ed63cb.chunk.js"
+  ]
+}

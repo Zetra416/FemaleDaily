@@ -12,7 +12,7 @@ export default function MatchesProductCard(props) {
     dispatch(
       getMatch(url)
     )
-  }, [url])
+  }, [url, dispatch])
 
   return (
     <div className="match_product_card_wrapper">
@@ -23,9 +23,18 @@ export default function MatchesProductCard(props) {
         return (
           <div className="match_product_cards" key={index}>
             <div className="product_matches">
-              <img className="match_image" src={match.product.image} style={{maxWidth: "150px" , maxHeight: "300px"}}/>
+              <img className="match_image" src={match.product.image} alt={""} style={{maxWidth: "150px" , maxHeight: "300px"}}/>
               <div className="content_bottom">
-                <h3 className="match_rating">{match.product.rating}</h3>
+                <div className="rating">
+                  <h3 className="match_rating">{match.product.rating}</h3>
+                  <div className="star_rating">
+                    {[1,2,3,4,5].map((el,index) => {
+                      return el <= match.product.rating ?
+                      <span class="fa fa-star checked"></span>
+                      : <span class="fa fa-star"></span>
+                    })}
+                  </div>
+                </div>
                 <h3 className="match_name">{match.product.name}</h3>
                 <h3 className="match_description">{match.product.description}</h3>
               </div>
