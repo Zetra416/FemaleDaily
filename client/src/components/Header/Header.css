@@ -1,0 +1,45 @@
+
+.header_wrapper {
+  display: flex;
+  flex-direction: row;;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.left_header {
+  display: flex;
+  width: 25%;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.center_header {
+  display:flex;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  width: 950px;
+  height: 35px;
+  text-align: left;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.search-box {
+  border: none;
+  flex: 1;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.right_header {
+  display: flex;
+  margin-left: 250px;
+  border-left: 1px solid #e5e5e5;
+  background: #e0003a;
+}
+
+.login {
+  border: none;
+  background: #e0003a;
+  color: white;
+  font-weight: bold;
+  align-items: flex-start;
+}
