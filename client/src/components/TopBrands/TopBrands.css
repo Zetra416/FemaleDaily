@@ -1,0 +1,14 @@
+
+.top_brands {
+  margin-bottom: 30px;
+}
+
+.top_brands_title {
+  line-height: 10px;
+  margin-top: 90px;
+}
+
+.top_brands_subtitle {
+  display: flex;
+  justify-content: space-between;
+}
