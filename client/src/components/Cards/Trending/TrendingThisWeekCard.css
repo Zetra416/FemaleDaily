@@ -1,0 +1,35 @@
+.trending_this_week_wrapper {
+  display:inline;
+  font-size: 13px;
+}
+
+.trending_this_week_cards {
+  position: relative;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.trending_product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+
+.trending_image_product {
+  max-width: 150px;
+  max-height: 300px;
+}
+
+.trending_bottom{
+  text-align: left;
+  padding: 10px;
+  line-height: 20px;
+}
+
+ol {
+  display: flex;
+}

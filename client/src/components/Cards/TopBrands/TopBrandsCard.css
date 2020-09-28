@@ -1,0 +1,36 @@
+.top_brand_wrapper {
+  display: inline;
+  font-size: 13px;
+}
+
+.top_brand_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 25px;
+  padding-right: 130px;
+}
+
+.top_brand_image {
+  max-width: 150px;
+  max-height: 300px;
+}
+
+.top_brand_footer {
+  margin-top: 20px;
+}
+
+.top_brand_footer_title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.top_brand_footer_content {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 50;
+  text-align: justify;
+}

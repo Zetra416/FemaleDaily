@@ -1,0 +1,51 @@
+.popular_group_wrapper {
+  display: inline;
+  font-size: 13px;
+}
+
+.popular_group_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+  margin-right: 40px;
+  padding: 0 10px;
+  padding-top: 50px;
+  box-shadow: -7px 7px #dddddd;
+}
+
+.group_image_product {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.content_group_bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+ol {
+  display: flex;
+}
+
+.group_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.group_description {
+  text-align: center;
+  font-weight: 100;
+}
+
+.group_title {
+  text-align: center;
+}
