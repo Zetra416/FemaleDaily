@@ -2,7 +2,8 @@
 
 Installation & Development
 - clone repo
-- run npm install
+- cd client
+- npm install
 - npm start
 
 # Demo
