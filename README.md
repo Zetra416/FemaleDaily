@@ -4,5 +4,5 @@ Installation & Development
 - clone repo
 - run npm 
 
-# Dmo
+# Demo
 link: https://fdhomepage.web.app/#
