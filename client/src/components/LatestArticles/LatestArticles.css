@@ -1,0 +1,12 @@
+.article_product_wrapper {
+  margin-top: 50px;
+}
+
+.article_title {
+  line-height: 15px;
+}
+
+.article_subtitle {
+  display: flex;
+  justify-content: space-between;
+}
